@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Populality prediction</title>
+        
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/ppp_logo_nu.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles2.css" rel="stylesheet" />
+        <link rel="stylesheet" href="js/scripts.js">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="./assets/img/ppp_logo_nu.png" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">We Do!</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">프로젝트</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">기대효과</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">팀 소개</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading"></div>
+                
+                <br><a class="btn btn-primary btn-xl text-uppercase" href="#about">살펴보기!</a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="masthead-heading text-uppercase"></div>
+                
+            </div>
+        </header>
+
+         <!-- 선정이유-->
+         <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">We Do!</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/선정이유1.png" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <br>
+                                <h4>웹툰 작가로 데뷔하고 싶은데</h4>
+                                <h4 class="subheading">과연 나의 작품이 흥행할까..?</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">수많은 웹툰 작품들이 출품되어 서로 경쟁하는 가운데 <br>가장 사람들의 이목을 끌며 성공하려면 어떡해야할까?</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/선정이유2.png" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>장르와 연재 기간이 웹툰 흥행에 영향을 미칠까? </h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">어떤 장르를 연재하는 작가의 작품이 인기가 많으며, 한 작품을 언제까지 연재하는것이 좋을까?</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/선정이유3.png" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>웹툰에서 썸네일이 중요할까? 썸네일만으로 유입되는 사람은 얼마나 될까?</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">사람들이 선호하는 썸네일은 무엇일까?
+                                어떤 그림체를 선호하며, 호기심을 가지는지 궁금해</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/선정이유4.png" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>썸네일과 줄거리 함께 적어 놓으면 더 많은 사람들이 들어올까?</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">그렇다면, 썸네일과 줄거리를 함께 보고 유입되는 사람들을 얼마나 될까?
+                            </p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                <br>확인해보자!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+       
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">프로젝트</h2>
+                    <h3 class="section-subheading text-muted">딥러닝을 이용한 웹툰의 흥행도 예측</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./assets/img/개요사진.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">0. 개요</div>
+                                <div class="portfolio-caption-subheading text-muted">전체 과정에 대한 로드맵</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./assets/img/크롤링.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">1. 크롤링</div>
+                                <div class="portfolio-caption-subheading text-muted">필요한 웹툰의 정보 및 썸네일 크롤링</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/process.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">2. 전처리</div>
+                                <div class="portfolio-caption-subheading text-muted">수집한 데이터를 활용가능한 데이터로 전처리</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/bar-chart.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">3. 시각화</div>
+                                <div class="portfolio-caption-subheading text-muted">전처리된 데이터에 대해 간략히 보기 위해 시각화</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">4. 딥러닝</div>
+                                <div class="portfolio-caption-subheading text-muted">알아낸 정보를 바탕으로 3가지항목에 대한 딥러닝 실시</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">5. 예측 결과</div>
+                                <div class="portfolio-caption-subheading text-muted">테스트 데이터를 학습된 모델에 넣어 예측결과 도출 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!-- 기대효과-->
+          <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">기대효과</h2>
+                    <h3 class="section-subheading text-muted">pp.p가 필요한 이유</h3><br>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fas fa-project-diagram fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">더 정확한 예측</h4>
+                        <p class="text-muted">장르, 썸네일, 요일 등 <br>다양한 변수에 따른 보다 정밀한 흥행도 예측</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fas fas fa-dollar-sign fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">시간, 비용 절감</h4>
+                        <p class="text-muted">갖가지 설문이나 시장조사가 아닌 <br>AI기술을 통한 빠르고 경제적인 분석</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fas fa-pen-fancy fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">안정적인 데뷔</h4>
+                        <p class="text-muted">흥행예측을 통한 <br>신인작가의 보다 안정적인 데뷔</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <!-- <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2015</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2020</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section> -->
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">팀 소개</h2>
+                    <h3 class="section-subheading text-muted">한남대학교 K-디지털트레이닝 빅데이터전문가 훈련과정 5조 PP.P조의 조원들 </h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img src="assets/img/team/선민_썸네일.jpg" alt="..." />
+                            <h4>오선민 / ⭐9.99</h4>
+                            <p class="text-muted">메인 페이지 및 차트 디자인</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/oosm12" aria-label="Parveen Anand Twitter Profile" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/p/Cs2sh3vSsm5/?igshid=MzRlODBiNWFlZA%3D%3D" aria-label="Parveen Anand Facebook Profile" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://oosm12.github.io/practice/template-20230717T041406Z-001/template/07-template/sunmin" aria-label="Parveen Anand LinkedIn Profile" target="_blank"><i class="fas fa-portrait"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img src="assets/img/team/동진_썸네일.jpg" alt="..." />
+                            <h4>김동진 / ⭐9.99</h4>
+                            <p class="text-muted">전체 총괄 및 내부 디자인</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/InPyuKimDongJin" aria-label="Diana Petersen Twitter Profile" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/inpyu/" aria-label="Diana Petersen Facebook Profile" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2"  href="https://inpyukimdongjin.github.io/Front_End/practice/07_project/dongjin.html"  id="emailLink" aria-label="Larry Parker LinkedIn Profile" target="_blank"><i class="fas fa-portrait"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img src="assets/img/team/형욱_썸네일.jpg" alt="..." />
+                            <h4>정형욱 / ⭐9.99</h4>
+                            <p class="text-muted">전체 뼈대 및 효과 디자인 </p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/wjd6056" aria-label="Larry Parker Twitter Profile" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/j_hu_1217/?igshid=MzNlNGNkZWQ4Mg%3D%3D" aria-label="Larry Parker Facebook Profile" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://wjd6056.github.io/practice_a/template/07-template/jhu.html"  id="emailLink" aria-label="Larry Parker LinkedIn Profile" target="_blank"><i class="fas fa-portrait"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients-->
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="https://www.naver.com"><img class="img-fluid img-brand d-block mx-auto" src="./assets/img/네이버 로고.png" alt="..." aria-label="Naver Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="https://comic.naver.com/index"><img class="img-fluid img-brand d-block mx-auto" src="./assets/img/네이버 웹툰 로고.jpg" alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="https://startbootstrap.com/"><img class="img-fluid img-brand d-block mx-auto" src="./assets/img/템플릿 사이트.png" alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="https://www.flaticon.com/"><img class="img-fluid img-brand d-block mx-auto" src="./assets/img/아이콘 사이트.png" alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">email &copy; 
+                        <p>오선민 : ksh127979@naver.com</p> 
+                        <p>김동진 : wlsrlgk1@naver.com</p>
+                        <p>정형욱 : wjd6056@naver.com</p>
+                    </div>
+                    <!--<div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>-->
+                    <!--<div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>-->
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">개요</h2>
+                                    <h3 class="item-intro text-muted">전체 과정</h3>
+                                    <img class="img-fluid d-block mx-auto" src="./assets/img/개요1.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="./assets/img/개요2.jpg" alt="..." />
+                                    <arti class="close">
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        닫기
+                                        </button>
+                                        <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal2">    
+                                            <i class="fas far fa-arrow-alt-circle-right"></i>
+                                            다음
+                                            </a>
+                                    </arti>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">크롤링💻</h2>
+                                    <h3 class="item-intro text-muted">네이버 웹툰 전체 크롤링.(2023-07-03 기준)</h3>
+                                    <hr>
+                                    <img class="img-fluid d-block mx-auto" src="./assets/img/크롤링 내부1.png" alt="..." />
+                                    <h5> 네이버 웹툰에서 제목, 작가, 썸네일 url,요일, 관심도, 장르, 첫화 / 최근화 게시일, 평점, 시리즈 등 크롤링  </h5>
+                                    <hr>
+                                    <img class="img-fluid d-block mx-auto" src="./assets/img/크롤링 내부2.png" alt="..." />
+                                    <h5> 데이터가 없는 성인 웹툰은 수기로 작성  </h5>
+                                    <hr>
+                                    <img class="img-fluid d-block mx-auto" src="./assets/img/크롤링 내부3.png" alt="..." />
+                                    <h5> 요일별 2회 이상 중복되는 행 제거  </h5>
+                                    <hr>
+                                    <img class="img-fluid d-block mx-auto" src="./assets/img/크롤링 내부4.png" alt="..." />
+                                    <h5> 요일별 연재작 총 594개, 완결작 1777개로 총 2357개의 웹툰 크롤링   </h5>
+                                    <hr>
+                                    <article class="close">
+                                        <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal1">    
+                                            <i class="fas far far fa-arrow-alt-circle-left"></i>
+                                            이전
+                                            </a>
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        닫기
+                                        </button>
+                                        <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal3">    
+                                            <i class="fas far fa-arrow-alt-circle-right"></i>
+                                            다음
+                                            </a>
+                                    </article>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- Portfolio item 3 modal popup-->
+       <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">2. 전처리</h2>
+                                <h3 class="item-intro text-muted">수집한 데이터를 활용가능한 데이터로 전처리</h3><hr><br><br>
+                                <h3>데이터 형태 변경</h3>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/전처리1.png" alt="..." />
+                                <h5>딥러닝을 위해 요일데이터의 형태를 변경한다.</h5><br><hr><br><br>
+                                <h3>데이터 형태 변경</h3>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/전처리5.png" alt="..." />
+                                <h5>딥러닝을 위해 장르데이터 형태를 변경한다.</h5><br><hr><br><br>
+                                <h3>데이터 추가</h3>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/전처리2.png" alt="..." />
+                                <h5>완결 작품은 요일 데이터가 누락되었다.</h5><br><hr><br><br>
+                                <h3>데이터 추가</h3>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/전처리3.png" alt="..." />
+                                <h5>첫화 게시일을 기준으로 요일데이터를 추가한다.</h5><br><hr><br><br>
+                                <h3>데이터열 추가</h3>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/전처리4.png" alt="..." />
+                                <h5>완결 여부, 기간, 흥행도 등 필요한 열을 추가한다.</h5><br><hr><br><br>
+                                <article class="close">
+                                    <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal2">    
+                                        <i class="fas far fa-arrow-alt-circle-left"></i>
+                                        이전
+                                        </a>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    닫기
+                                    </button>
+                                    <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal4">    
+                                        <i class="fas far fa-arrow-alt-circle-right"></i>
+                                        다음
+                                        </a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">3. 시각화</h2>
+                                <h3 class="item-intro text-muted">전처리된 데이터에 대해 간략히 보기 위해 시각화</h3><hr><br><br>
+                                <h5></h5>
+                                <br>
+                                <div id="pieContainer" style="max-width: 100%; max-height: 100%;"></div>
+
+                                    <script src="https://code.highcharts.com/highcharts.js"></script>
+                                    <script>
+                                        // 파이 차트 데이터
+                                        var pieData = [
+                                            ['로맨스', 587],
+                                            ['드라마', 501],
+                                            ['판타지', 384],
+                                            ['스릴러', 269],
+                                            ['개그', 178],
+                                            ['액션', 167],
+                                            ['일상', 159],
+                                            ['무협/사극', 44],
+                                            ['감성', 35],
+                                            ['스포츠', 33]
+                                        ];
+                                    
+                                        // 총합 계산
+                                        var pieTotal = 0;
+                                        for (var i = 0; i < pieData.length; i++) {
+                                            pieTotal += pieData[i][1];
+                                        }
+                                    
+                                        // 비율 계산
+                                        var pieSeriesData = [];
+                                        for (var i = 0; i < pieData.length; i++) {
+                                            var name = pieData[i][0];
+                                            var value = pieData[i][1];
+                                            var ratio = (value / pieTotal) * 100;
+                                            pieSeriesData.push([name, ratio]);
+                                        }
+                                    
+                                        // 파이 차트 생성
+                                        Highcharts.chart('pieContainer', {
+                                            chart: {
+                                                type: 'pie',
+                                                animation: {
+                                                    duration: 2000
+                                                }
+                                            },
+                                            title: {
+                                                text: '장르 비율'
+                                            },
+                                            tooltip: {
+                                                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                                            },
+                                            series: [{
+                                                name: '장르',
+                                                data: pieSeriesData,
+                                                size: '90%',
+                                                innerSize: '40%',
+                                                animation: true
+                                            }]
+                                        });
+
+                                        // 창 크기 변경 시 차트 크기 자동 조절
+                                        window.addEventListener('resize', function() {
+                                        var chart = Highcharts.charts[0]; // 첫 번째 차트를 가져옴
+                                        var containerWidth = document.getElementById('chartContainer').clientWidth;
+                                        var containerHeight = document.getElementById('chartContainer').clientHeight;
+
+                                        chart.setSize(containerWidth, containerHeight, false);
+                                        });
+                                    </script>
+                                    
+                                <h5>네이버 웹툰의 장르 비율로<br>로맨스와 드라마가 가장 많은 비율을 차지하고 있다</h5><br><hr><br><br>
+                                <br>
+                                <h3>좋아요 상위 TOP10</h3>
+                                    
+                                    <div class="mx-auto" id="barContainer" style="max-width: 100%; max-height: 100%;"></div>
+                                    
+                                    <script src="https://code.highcharts.com/highcharts.js"></script>
+                                    <script>
+                                        var barData = [
+                                            ['연애혁명', 2552945],
+                                            ['외모지상주의', 2359385],
+                                            ['신의탑', 1966416],
+                                            ['마음의 소리', 1715178],
+                                            ['프리드로우', 1635984],
+                                            ['노블레스', 1354843],
+                                            ['갓 오브 하이스쿨', 1339208],
+                                            ['드라마원작]유미의 세포들', 1312682],
+                                            ['여신강림', 1258501],
+                                            ['마주쳤다', 1245494]
+                                        ];
+                                    
+                                        Highcharts.chart('barContainer', {
+                                            chart: {
+                                                type: 'column'
+                                            },
+                                            title: {
+                                                text: '상위 10개 웹툰'
+                                            },
+                                            xAxis: {
+                                                type: 'category'
+                                            },
+                                            yAxis: {
+                                                title: {
+                                                    text: '관심 수'
+                                                }
+                                            },
+                                            series: [{
+                                                name: '관심 수',
+                                                data: barData,
+                                                animation: {
+                                                    duration: 2000
+                                                },
+                                                dataLabels: {
+                                                    enabled: true,
+                                                    format: '{point.y}'
+                                                }
+                                            }]
+                                        });
+                                        
+                                        // 창 크기 변경 시 차트 크기 자동 조절
+                                        window.addEventListener('resize', function() {
+                                        var chart = Highcharts.charts[0]; // 첫 번째 차트를 가져옴
+                                        var containerWidth = document.getElementById('barContainer').clientWidth;
+                                        var containerHeight = document.getElementById('barContainer').clientHeight;
+
+                                        chart.setSize(containerWidth, containerHeight, false);
+                                        });
+                                    </script>
+                                    
+                                <h5>차트를 통해 인기가 많은 작품의 특징을 알 수 있다.</h5><br><hr><br><br>
+                                <br>
+                                    
+                                <h3>좋아요 하위 TOP10</h3>
+                                <br>
+                                    <div id="barContainer2"  style="max-width: 100%; max-height: 100%;"></div>
+                                    <script src="https://code.highcharts.com/highcharts.js"></script>
+                                    <script>
+                                        var barData2 = [
+                                            ['아하! 이게 바로 외교!', 84],
+                                            ['드림풋볼', 87],
+                                            ['열가지 묻지馬 이야기',  97],
+                                            ['아이러브올림픽게임즈 ', 120],
+                                            ['Wish Festival', 124],
+                                            ['GOOD BYE TB', 135],
+                                            ['다함께 잘사는 세계', 139],
+                                            ['만화사랑 캠페인 ', 142],
+                                            ['태환이의 GOLD STORY', 146],
+                                            ['다시 한 번 대한민국', 147]
+                                        ];
+                                    
+                                        Highcharts.chart('barContainer2', {
+                                            chart: {
+                                                type: 'column'
+                                            },
+                                            title: {
+                                                text: '하위 10개 웹툰'
+                                            },
+                                            xAxis: {
+                                                type: 'category'
+                                            },
+                                            yAxis: {
+                                                title: {
+                                                    text: '관심 수'
+                                                },
+                                                max: 200
+                                            },
+                                            series: [{
+                                                name: '관심 수',
+                                                data: barData2,
+                                                animation: {
+                                                    duration: 2000
+                                                },
+                                                dataLabels: {
+                                                    enabled: true,
+                                                    format: '{point.y}'
+                                                },
+                                                color: '#FF0000' // 바 차트의 색상을 빨간색으로 변경
+                                            }]
+                                        });
+                                         
+                                        // 창 크기 변경 시 차트 크기 자동 조절
+                                        window.addEventListener('resize', function() {
+                                        var chart = Highcharts.charts[0]; // 첫 번째 차트를 가져옴
+                                        var containerWidth = document.getElementById('barContainer2').clientWidth;
+                                        var containerHeight = document.getElementById('barContainer2').clientHeight;
+
+                                        chart.setSize(containerWidth, containerHeight, false);
+                                        });
+                                    </script>
+                                    
+                                <h5>차트를 통해 인기가 없는 작품은 주로 홍보 웹툰임을 알 수 있다.</h5><br><br><br>
+                                <hr>
+                                <h3>작가의 작품 수 별 관심 수 차트</h3>
+                                <div id="container"></div>
+
+                                    <script>
+                                        document.addEventListener('DOMContentLoaded', function() {
+                                            Highcharts.chart('container', {
+                                                chart: {
+                                                    type: 'column'
+                                                },
+                                                title: {
+                                                    text: '작가의 작품 수 별 관심 수 분포'
+                                                },
+                                                xAxis: {
+                                                    categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '17']
+                                                },
+                                                yAxis: [{
+                                                    title: {
+                                                        text: '작가의 수'
+                                                    }
+                                                }, {
+                                                    title: {
+                                                        text: '관심 수 '
+                                                    },
+                                                    opposite: true
+                                                }],
+                                                series: [{
+                                                    name: '인원별 작품 수',
+                                                    data: [1038, 474, 238, 174, 95, 84, 35, 23, 18, 10, 22, 11, 13, 28, 17]
+                                                }, {
+                                                    name: '인원별 관심 수',
+                                                    type: 'spline',
+                                                    yAxis: 1,
+                                                    data: [105000, 120000, 130000, 140000, 110000, 150000, 140000, 50000, 100000, 30000, 25000, 200000, 130000, 180000, 150000],
+                                                    tooltip: {
+                                                        valueDecimals: 0
+                                                    }
+                                                }]
+                                            });
+                                        });
+                                    </script>
+                                <h5>작품의 수가 적은 작가가 대다수이며,<br>평균적으로 작품 수가 많을수록 관심수가 많은 양상을 띈다.</h5><br><hr><br><br>
+                                <br>
+                                <h3>변수별 상관관계 분포도</h3>
+                                <div id="heatmapchart" style="max-width: 100%; max-height: 100%;"></div>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            Highcharts.chart('heatmapchart', {
+                chart: {
+                    type: 'heatmap',
+                    animation: {
+                        duration: 1000
+                    }
+                },
+                title: {
+                    text: '상관관계'
+                },
+                xAxis: {
+                    categories: ['series_id', 'is_abuit', 'star_score', 'favoriteConut', 'genre', 'epi_cnt', 'finish', '작가의 작품수', 'period']
+                },
+                yAxis: {
+                    categories: ['series_id', 'is_abuit', 'star_score', 'favoriteConut', 'genre', 'epi_cnt', 'finish', '작가의 작품수', 'period'],
+                    title: null
+                },
+                colorAxis: {
+                    min: 0,
+                    max: 1,
+                    minColor: '#FFFFFF',
+                    maxColor: Highcharts.getOptions().colors[0]
+                },
+                series: [{
+                    name: 'Value',
+                    borderWidth: 1,
+                    data: [
+                        [0, 0, 1],
+                        [0, 1, -0.021],
+                        [0, 2, 0.033],
+                        [0, 3, -0.024],
+                        [0, 4, -0.0078],
+                        [0, 5, -0.26],
+                        [0, 6, -0.33],
+                        [0, 7, -0.24],
+                        [0, 8, -0.23],
+                        [1, 0, -0.021],
+                        [1, 1, 1],
+                        [1, 2, 0.0076],
+                        [1, 3, 0.0094],
+                        [1, 4, 0.017],
+                        [1, 5, -0.033],
+                        [1, 6, 0.028],
+                        [1, 7, -0.017],
+                        [1, 8, -0.029],
+                        [2, 0, 0.033],
+                        [2, 1, 0.0076],
+                        [2, 2, 1],
+                        [2, 3, 0.11],
+                        [2, 4, -0.044],
+                        [2, 5, 0.063],
+                        [2, 6, -0.093],
+                        [2, 7, -0.11],
+                        [2, 8, 0.094],
+                        [3, 0, -0.024],
+                        [3, 1, 0.0094],
+                        [3, 2, 0.11],
+                        [3, 3, 1],
+                        [3, 4, -0.0098],
+                        [3, 5, 0.48],
+                        [3, 6, -0.11],
+                        [3, 7, -0.062],
+                        [3, 8, 0.57],
+                        [4, 0, -0.0078],
+                        [4, 1, 0.017],
+                        [4, 2, -0.044],
+                        [4, 3, -0.0098],
+                        [4, 4, 1],
+                        [4, 5, 0.0094],
+                        [4, 6, -0.098],
+                        [4, 7, 0.031],
+                        [4, 8, 0.11],
+                        [5, 0, -0.26],
+                        [5, 1, -0.033],
+                        [5, 2, 0.063],
+                        [5, 3, 0.48],
+                        [5, 4, 0.094],
+                        [5, 5, 1],
+                        [5, 6, -0.015],
+                        [5, 7, -0.11],
+                        [5, 8, 0.81],
+                        [6, 0, 0.33],
+                        [6, 1, 0.028],
+                        [6, 2, -0.093],
+                        [6, 3, -0.11],
+                        [6, 4, -0.098],
+                        [6, 5, -0.015],
+                        [6, 6, 1],
+                        [6, 7, 0.16],
+                        [6, 8, -0.11],
+                        [7, 0, -0.24],
+                        [7, 1, -0.017],
+                        [7, 2, -0.11],
+                        [7, 3, -0.062],
+                        [7, 4, 0.031],
+                        [7, 5, -0.11],
+                        [7, 6, 0.16],
+                        [7, 7, 1],
+                        [7, 8, -0.14],
+                        [8, 0, -0.23],
+                        [8, 1, -0.029],
+                        [8, 2, 0.094],
+                        [8, 3, 0.57],
+                        [8, 4, 0.11],
+                        [8, 5, 0.81],
+                        [8, 6, -0.11],
+                        [8, 7, -0.14],
+                        [8, 8, 1]
+                    ],
+                    dataLabels: {
+                        enabled: true,
+                        color: '#000000'
+                    }
+                }]
+            });
+        });
+    </script>
+                                <h5>관심 수와 가장 높은 상관관계를 보이는 변수는 <br>연재기간과 그에 따른 에피소드의 개수이다.</h5><br><hr>
+                                <br>
+                                <article class="close">
+                                    <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal3">    
+                                        <i class="fas far fa-arrow-alt-circle-left"></i>
+                                        이전
+                                        </a>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    닫기
+                                    </button>
+                                    <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal5">    
+                                        <i class="fas far fa-arrow-alt-circle-right"></i>
+                                        다음
+                                        </a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">4. 딥러닝</h2>
+                                    <h3 class="item-intro text-muted">딥러닝 과정의 로드맵과 필요한 데이터, 기본적인 조건, 흥행 기준, 예시 등을 표시합니다.</h3>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4-1.png" alt="..." />
+                                    <article class="deep">
+                                    <img src="assets/img/portfolio/4-3.png" alt="">
+                                    <img src="assets/img/portfolio/4-2.png" alt="">
+                                    </article>
+                                    <hr>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4-4.png" alt="..." />
+                                    <h5>
+                                        장르와 요일에 관해서는 one-hot-인코딩을 사용하여 분류하였다.
+                                    </h5>
+                                    <hr>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4-5.png" alt="..." />
+                                    <h5>
+                                         총 8종류의 변수를 사용하여 흥행여부를 0과 1로 표시할 것이다.
+                                    </h5>
+                                    <hr>
+                                    <article class="close">
+                                        <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal4">    
+                                            <i class="fas far fa-arrow-alt-circle-left"></i>
+                                            이전
+                                            </a>
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        닫기
+                                        </button>
+                                        <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal6">    
+                                            <i class="fas far fa-arrow-alt-circle-right"></i>
+                                            다음
+                                            </a>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">5. 예측 결과</h2>
+                                    <h5 class="item-intro text-muted">각각의 경우에 대해 TrainSet와 ValidationSet의 손실(Loss)과 정확도(Accuracy)를 확인하고 각각의 모델에 대해 TestSet로 점수를 계산</h5>
+                                    <hr>
+                                    <h3>1. 데이터만 사용했을 때의 경우</h3>
+                                    <article class="deep">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-1.png" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-2.png" alt="..." />
+                                    </article>
+                                    <h5>왼쪽이 TrainSet, 오른쪽이 ValidationSet의 Loss와 Accuracy이다. <br>
+                                    Train과 validation 둘 다 epoch가 늘어날수록 손실은 줄어들고 정확도는 올라가는 것을 확인할 수 있었다.
+                                    </h5>
+                                    <hr>
+                                    <h3>2. 이미지만 사용했을 때의 경우</h3>
+                                    <article class="deep">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-3.png" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-4.png" alt="..." />
+                                    </article>
+                                    <h5>
+                                    Train과 validation 둘 다 epoch가 늘어날수록 손실은 줄어드나 정확도도 함께 줄어드는 것을 볼 수 있다. <br>
+                                    추가적으로, 두 번이상 효율이 떨어지면 epoch를 종료하는 알고리즘을 넣었더니 7번만 하고 멈춘 것을 확인할 수 있다.
+                                    </h5>
+                                    <hr>
+                                    <h3>3. 데이터와 이미지 둘 다 사용했을 때의 경우</h3>
+                                    <article class="deep">
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-5.png" alt="..." />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-6.png" alt="..." />
+                                    </article>
+                                    <h5>
+                                        epoch가 진행될수록 높은 계속해서 손실은 낮아지고 정확도는 올라가는 현상을 확인할 수 있었다!!
+                                    </h5>
+                                    <hr>
+                                    <h3>4. TestSet으로 예측해보기</h3>
+                                    <article class="deep">
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-7.png" alt="..." />
+                                    </article>
+                                    <h5>
+                                        변수랑 이미지를 따로 써서 모델을 돌려보니 50점대로 낮은 점수가 확인되었으나 두 개를 같이 쓰면 점수가 70점대로 높아지는 것을 확인할 수 있었다.
+                                    </h5>
+                                    <hr>
+                                    <article class="close">
+                                        <a class="btn btn-primary btn-xl text-uppercase"  data-bs-toggle="modal"href="#portfolioModal5">    
+                                            <i class="fas far fa-arrow-alt-circle-left"></i>
+                                            이전
+                                            </a>
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        닫기
+                                        </button>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-to-top" onclick="scrollToTop()">▲</div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    </body>
+</html>
